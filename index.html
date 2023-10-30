@@ -1,0 +1,439 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="chatbot.css">
+
+  <title>Portfolio</title>
+</head>
+<style>
+  .neon-cursor {
+  position: absolute;
+  width:30px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #0ef; /* Customize color */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  animation: neon-glow 1s infinite alternate;
+}
+
+@keyframes neon-glow {
+  to {
+   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 300px cyan, 0 0 200px cyan;
+  }
+}
+
+</style>
+<body>
+  
+ <div class="progress-container1">
+      <div class="progress-bar1" id="myBar1"></div>
+    </div>
+  <!-- Header -->
+  <header class="header" id="header" >
+    <a href="#" class="logo">My Portfolio</a>
+    <nav class="navbar">
+      <a href="#home" style="--i:1;" class="active">Home</a>
+      <a href="#about" style="--i:2;">About_Us</a>
+      <a href="#services" style="--i:3;">Services</a>
+      <a href="#portfolio" style="--i:4;">Portfolio</a>
+      <a href="#contact" style="--i:5;">Contact_Us</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, It's me </h3>
+      <h1>Lavkush Rajbhar</h1>
+      <h3>And I'm a <span id="text"></span>.</h3>
+      <p>
+        I'm a Web-Developer and I have been doing an Internship program since 2 month's.
+        <br />
+        Expertise is to create and design websites, Frontend design, Frontend Developer,
+        Backend Developer and much more .
+      </p>
+      <div class="home-sci">
+
+        <a href="#" style="--i:6;"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" style="--i:7;"><i class="bi bi-linkedin"></i></a>
+        <a href="#" style="--i:8;"><i class="bi bi-github"></i></a>
+        <a href="#" style="--i:9;"><i class="bi bi-instagram"></i></a>
+      </div>
+      <a href="/Lavkush Ramroop rajbhar (1).pdf" download="Lavkush Ramroop rajbhar (1).pdf" class="btn-box">Download CV</a>
+    </div>
+    <div>
+<!-- <span class="home-imgHover"> <img src="/port.jpg" alt="" ></span> -->
+    </div>
+    </div>
+    
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/port.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Full Stack Developer</h4>
+      <p>
+        I am a Full stack developer with knowledge of HTML CSS JavaScript Bootstrap PHP and have good understanding in
+        React JS and also I am a skilled web designer.
+        I have done internship with over 3 months experience where I have developed many websites and also have worked
+        on live-projects.
+        My main goal in life is to learn new things every day so that I can become the best version myself.
+      </p>
+      <a href="#" class="btn-box">More About me</a>
+    </div>
+  </section>
+
+  <section class>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Educations</span></h1>
+
+        <div class="services-list">
+          <div>
+            <!-- <i class="bi bi-code-square"></i> -->
+            <h2>Certification in Java</h2>
+            <h3 class="date">09/21 - 07/22</h3>
+            <p>
+             I have done post graduation in java programming where i have learnt many programming languages such as HTML, CSS, Javascript, Bootstrap, Java ,MySQL many more.
+            </p>
+            <!-- <a href="#" class="read">Read</a> -->
+          </div>
+          <div>
+            <!-- <i class="bi bi-filetype-php"></i> -->
+            <h2>BCA</h2>
+            <h3 class="date">2016-2019</h3>
+            <p>
+              I am graduated from Vikas College Vikhroli which is submerged with the Tilak Maharashtra University Pune.
+            </p>
+            <!-- <a href="#" class="read">Read</a> -->
+          </div>
+          <div>
+            <!-- <i class="bi bi-database"></i> -->
+            <h2>HSC</h2>
+            <h3 class="date">2015-2016</h3>
+            <p>
+              I have completed Hsc from Jham Baba PG College Ambedkar nagar UttarPradesh
+            </p>
+            <!-- <a href="#" class="read">Read</a> -->
+          </div>
+          <div>
+            <!-- <i class="bi bi-gear-fill"></i> -->
+            <h2>SSC</h2>
+            <h3 class="date">2013-2014</h3>
+            <p>
+              I have completed SSC from G. S. A. V. P. Ambedkar nagar UttarPradesh.
+
+            </p>
+            <!-- <a href="#" class="read">Read</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <h1 class="sub-title skill">My <span>Skills</span></h1>
+  <section class="sections">
+    <div class="container1" id="skills">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="technical-bars">
+        <div class="bar">
+          <i class="bi bi-filetype-html" style="color: #c95d2e;"></i>
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bi bi-filetype-css" style="color: #147bbc;"></i>
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bi bi-filetype-js" style="color: #b0bc10;"></i>
+          <div class="info">
+            <span>JavaScript</span>
+          </div>
+          <div class="progress-line javascript">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class="bi bi-filetype-php" style="color:#c32ec9 ;"></i>
+          <div class="info">
+            <span>PHP</span>
+          </div>
+          <div class="progress-line PHP">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bi bi-bootstrap" style="color: #09bcbc;"></i>
+          <div class="info">
+            <span>Bootstrap</span>
+          </div>
+          <div class="progress-line bootstrap">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bi bi-filetype-sql" style="color: #05f815;"></i>
+          <div class="info">
+            <span>MySQL</span>
+          </div>
+          <div class="progress-line MySQL">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <i class="bi bi-filetype-java" style="color: greenyellow;"></i>
+          <div class="info">
+            <span>JAVA</span>
+          </div>
+          <div class="progress-line java">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- **************************************Technical Skills Ends**************************** -->
+
+    <div class="container1 tech" >
+      <h1 class="heading1 pro">Professional Skills</h1>
+      <div class="radial-bars">
+        <div class="radial-bar">
+
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Creativity</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">85%</div>
+          <div class="text">Communication</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">85%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Team-Work</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Positive Attitude </div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-7" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">95%</div>
+          <div class="text">Dedication</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section>
+  <div id="portfolio" class="project">
+    <div class="main-text" id="project">
+      <h2>Latest <span> Projects</span></h2>
+      <div class="portfolio-content">
+<div class="row">
+<img src="images/beam-web-design-program-on-laptop-screen.gif" alt="">
+<div class="layer">
+<h5>College Website</h5>
+<p>
+A website for a college in India. The website has been developed using HTML, CSS and Javascript.
+The website is responsive to all devices including mobile phones, tablets and desktop computers.
+</p>
+<a href="https://myeducationsite.netlify.app" target="_blank"><i class="bi bi-box-arrow-up-right" style="color: #0ef;"></i></a>
+</div>
+
+</div>
+<div class="row">
+<img src="images/beam-woman-sitting-at-desk-and-programming.gif" alt="">
+<div class="layer">
+<h5>Search Image Online</h5>
+<p>
+This is an online image search engine built with HTML, CSS, and JavaScript. Users input keywords, click 'search,' and it uses the Unsplash API to display matching images on the screen.
+
+</p>
+<a href="https://searchimageonline.netlify.app" target="_blank"><i class="bi bi-box-arrow-up-right" style="color: #0ef;"></i></a>
+
+</div>
+
+</div>
+<div class="row">
+<img src="images/florid-software-developer.gif" alt="">
+<div class="layer">
+<h5>Quiz App</h5>
+<p>
+  This website contains many random multiple choice questions after giving all the answers it tells the result how many questions are correct. It is created
+  by the Html, Css and mostly in Javascript.
+</p>
+<a href="https://mcquizz.netlify.app" target="_blank"><i class="bi bi-box-arrow-up-right" style="color: #0ef;"></i></a>
+
+</div>
+
+</div>
+<div class="row">
+<img src="images/florid-support-service.gif" alt="">
+<div class="layer">
+<h5>Image Download</h5>
+<p>
+  This website contains Html, Css And little bit Javascript. Users can view and download the images.
+</p>
+<a href="https://imagesdownload.netlify.app" target="_blank"><i class="bi bi-box-arrow-up-right" style="color: #0ef;"></i></a>
+
+</div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- -------------------contact-------------------- -->
+
+
+
+<section class="contact" id="contact">
+  <h2>Contact <span>Me</span></h2>
+  <div class="container-contact">
+<div class="contact-text">
+
+  <h4>Let's work Together</h4>
+<p>
+  If you have a project that you need coded or just want to say hi,<br />feel free to contact me! <br>
+   I'll get back to you as soon as possible.
+</p>
+<div class="contact-list">
+
+  <li><i class="bi bi-send-fill" style="color: #0ef;"></i>rajbharlav@gmail.com</li>
+  <li><i class="bi bi-telephone-forward" style="color: #0ef;"></i>+91 9702258210</li>
+
+</div>
+<div class="contact-icons ">
+ <a href="#" style="--i:10;"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" style="--i:11;"><i class="bi bi-linkedin"></i></a>
+        <a href="#" style="--i:12;"><i class="bi bi-github"></i></a>
+        <a href="#" style="--i:13;"><i class="bi bi-instagram"></i></a>
+      </div>
+
+</div>
+
+<div class="contact-form">
+  <form action="https://formspree.io/f/xzblrawj" method="post">
+<input type="" placeholder="Enter Your Name" required name="name">
+<input type="email" name="email" placeholder="Enter Your Email" id="" required>
+<input type="" placeholder="Enter Your Subject" name="subject">
+<textarea rows="10" cols="40" placeholder="Your Message Here..." name="msg"></textarea>
+<input type="submit" value="Submit" id="send" class="send">
+  </form>
+</div> 
+</div>
+</section>
+
+<div class="last-text">
+<p>Made with ❤️ by Lavkush Rajbhar &copy 2023</p>
+<a href="#header" class="top"><i class="bi bi-arrow-up-circle-fill"></i></a>
+</div>
+
+ <div class="neon-cursor"></div>
+<!-- ----------------------------ChatBot----------------- -->
+
+
+ <button class="chatbot-toggler">
+      <span><i class="bi bi-chat-right"></i></span> 
+      <span><i class="bi bi-x-lg"></i></span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>I am here to help you.</h2>
+        <span><i class="close-btn bi bi-x-lg"></i></span>
+      </header>
+
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">🤖</span>
+          <p>Hi there 👋 <br> How can I help you today ?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea name=""placeholder="Enter a message..." id="" required></textarea>
+        <span id="send-btn"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+      </div>
+
+
+
+
+
+      <!-- --------------------------cursor----------------------------- -->
+<script>
+$('#send').on('click',function(){
+
+});
+</script>
+<script>
+  document.addEventListener('mousemove', (e) => {
+  const cursor = document.querySelector('.neon-cursor');
+  cursor.style.left = `${e.clientX}px`;
+  cursor.style.top = `${e.clientY}px`;
+});
+// document.body.style.cursor = 'none';
+</script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+  <script src="/index.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="chat.js"></script>
+</body>
+
+</html>
